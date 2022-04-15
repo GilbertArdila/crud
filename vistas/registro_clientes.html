@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro nuevos clientes</title>
+    <link rel="stylesheet" href="../styles/registro.css">
+</head>
+<body>
+    <main class="form-container">
+        <h2>Registrar usuario</h2>
+    
+        <form action="#" class="new_clients_form" data-form>
+    
+            <label for="name">Nombre</label>
+            <input type="text" id="name" class="name" data-name required>
+    
+            <label for="cc"> Identificación</label>
+            <input type="text" id="cc" class="cc" data-cc required>
+    
+            <label for="mail">E-mail</label>
+            <input type="mail" id="mail" class="mail" data-mail required>
+    
+            <label for="phone">Telefono</label>
+            <input type="tel" id="phone" class="phone" data-phone required>
+    
+            <label for="city">Ciudad</label>
+            <input type="text" id="city" class="city" data-city required>
+    
+            <button type="submit" class="button" id="button">Registrar</button>
+    
+        </form>
+    
+    </main>
+    <!-- link a uuid -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../services/createClient.js" type="module"></script>
+</body>
+</html>

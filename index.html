@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista usuarios</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <main class="table-container"> 
+        <h2>Lista usuarios</h2>
+        <table class="client-table">
+            <thead>
+                <tr>
+                    <th class="table__column--name">Nombre</th>
+                    <th class="table__column--cc">Identificación</th>
+                    <th class="table__column--email">E-mail</th>
+                    <th class="table__column--phone">Telefono</th>
+                    <th class="table__column--city">Ciudad</th>
+                    <th class="table__column--action simple-button">
+                       <a href="./vistas/registro_clientes.html"> Nuevo Cliente</a></th>
+                </tr>
+            </thead>
+            <tbody data-table></tbody>
+        </table>
+    </main>
+    <script src="./index.js" type="module"></script>
+</body>
+</html>

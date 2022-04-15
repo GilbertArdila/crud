@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actualizar datos cliente</title>
+    <link rel="stylesheet" href="../styles/registro.css">
+</head>
+<body>
+    <main class="form-container">
+        <h2>Actualizar usuario</h2>
+    
+        <form action="#" class="new_clients_form" data-ClientForm>
+    
+            <label for="name">Nombre</label>
+            <input type="text" id="name" class="name" data-clientName required>
+    
+            <label for="cc"> Identificación</label>
+            <input type="text" id="cc" class="cc" data-clientCc required>
+    
+            <label for="mail">E-mail</label>
+            <input type="mail" id="mail" class="mail" data-clientMail required>
+    
+            <label for="phone">Telefono</label>
+            <input type="tel" id="phone" class="phone" data-clientPhone required>
+    
+            <label for="city">Ciudad</label>
+            <input type="text" id="city" class="city" data-clientcity required>
+    
+            <button type="submit" class="button" id="button">Actualizar</button>
+    
+        </form>
+    
+    </main>
+    <script src="../services/upLoadClient.js" type="module"></script>
+</body>
+</html>
